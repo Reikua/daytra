@@ -1,0 +1,94 @@
+@media all and (max-width: 670px) {
+  header .container {
+    height: 80px;
+  }
+  header .container .header-left {
+    width: 100%;
+    height: 50%;
+    line-height: 30px;
+    float: none;
+    margin: 0 auto;
+  }
+  header .container .header-left h2 {
+    padding-top: 10px;
+    padding-left: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  header .container .header-right {
+    width: 270px;
+    height: 30px;
+    line-height: 30px;
+    float: none;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  header .container .header-right li {
+    width: 80px;
+    padding: 0 5px;
+  }
+  header .container .header-right li a {
+    font-size: 6px;
+  }
+  .main .top-wrapper .container .sentences h1 {
+    font-size: 30px;
+  }
+  .main .top-wrapper .container .sentences h3 {
+    font-size: 12px;
+  }
+  .main .main-wrapper .container .title h2 {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .main .main-wrapper .container .main-container div {
+    float: none;
+    width: 100%;
+  }
+  .main .main-wrapper .container .main-container .sentences {
+    padding: 0;
+  }
+  .main .main-wrapper .container .main-container .sentences p {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .main .course-wrapper .container .title h2 {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .main .course-wrapper .container .course-container div p {
+    font-size: 12px;
+  }
+  .main .course-wrapper .container .course-container .elemental img {
+    width: 270px;
+  }
+  .main .course-wrapper .container .course-container .intermediate img {
+    width: 270px;
+  }
+  .main .course-wrapper .container .course-container .advanced img {
+    width: 270px;
+  }
+  .main .contact-wrapper .container .title h2 {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .main .contact-wrapper .container .contact-container .address-form input {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .main .contact-wrapper .container .contact-container .sub-btn {
+    width: 90%;
+  }
+  footer .container .footer-right {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer .container .footer-right p {
+    text-align: center;
+    font-size: 3px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
