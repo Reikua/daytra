@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* ------------------------------------------------
+* 全体設定
+-------------------------------------------------- */
+body {
+  background-image: url(img/blue-snow/blue-snow.png);
+  margin: 0;
+  padding: 0;
+  font-family: "メイリオ", Meiryo;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body ul, body img {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 22px;
+  color: #082b48;
+}
+
+.line {
+  width: 70%;
+  height: 1px;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
+/* ------------------------------------------------
+* ヘッダー
+-------------------------------------------------- */
+header .container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container h1 {
+  display: inline-block;
+  font-size: 20px;
+  color: #082b48;
+  margin-left: 20px;
+}
+
+header .container nav ul {
+  display: flex;
+}
+
+header .container nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+header .container nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000;
+}
+
+header .container nav ul li a:hover {
+  border-bottom: 2px solid gray;
+}
+
+/* ------------------------------------------------
+* メイン画像
+-------------------------------------------------- */
+div.main_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 318px;
+  background-image: url(img/main-vsual-nontitle.png);
+  background-size: cover;
+}
+
+div.main_image p {
+  display: inline-block;
+  text-align: center;
+  color: #082b48;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+div.main_image p span {
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* ------------------------------------------------
+* デイトラとは
+-------------------------------------------------- */
+section.about {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+section.about .container h2 {
+  text-align: center;
+}
+
+section.about .container .box {
+  display: flex;
+  padding: 20px 20px 50px 20px;
+  box-sizing: border-box;
+}
+
+section.about .container .box img {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+
+section.about .container .box p {
+  width: 50%;
+  color: #082b48;
+}
+
+/* ------------------------------------------------
+* コース一覧
+-------------------------------------------------- */
+section.course {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+section.course .container h2 {
+  text-align: center;
+}
+
+section.course .container ul {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+section.course .container ul li {
+  width: 33%;
+  list-style: none;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+section.course .container ul li img {
+  width: 100%;
+}
+
+/* ------------------------------------------------
+* お問い合わせ
+-------------------------------------------------- */
+section.contact {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+section.contact .container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section.contact .container p {
+  text-align: center;
+  font-size: 15px;
+  color: #082b48;
+}
+
+section.contact .container input {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+  height: 40px;
+  border: 2px solid #d8d8d8;
+  border-radius: 100px;
+  text-indent: 1em;
+  font-size: 15px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+section.contact .container a {
+  display: block;
+  margin: 0 auto 100px;
+  text-decoration: none;
+  width: 80%;
+  max-width: 300px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ec6d64;
+  border-radius: 4px;
+}
+
+section.contact .container a:hover {
+  background-color: #e9584d;
+}
+
+/* ------------------------------------------------
+* フッター
+-------------------------------------------------- */
+footer .container {
+  height: 70px;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .container p {
+  margin-top: 15px;
+  font-size: 10px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
